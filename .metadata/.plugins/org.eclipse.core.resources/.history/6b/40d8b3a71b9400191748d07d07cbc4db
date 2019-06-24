@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL文実行練習</title>
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+  </head>
+  <body style="background-color:#eeeeee; margin: auto; text-align: center;">
+   <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://stat.ameba.jp/user_images/20120628/16/myumyupuri/d9/3a/g/t02030038_0203003812051530605.gif">
+        </div>
+        <span class="menu-icon fa fa-bars"></span>
+
+        <div class="header-right">
+          <a href="dummy.html" th:href="@{/dummy}">だみー</a>
+          <a href="search.html" th:href="@{/search}">けんさく</a>
+          <a href="dummy.html" th:href="@{/dummy}" class="dummy">hogefuga</a>
+        </div>
+      </div>
+    </header>
+ <!-- Start cssSlider.com -->
+      <div class='csslider1 autoplay '>
+        <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
+        <input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
+        <input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
+        <input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+        <input name="cs_anchor1" id='cs_pause1' type="radio" class='cs_anchor' >
+        <h1 class="h1text">aiueo</h1>
+        <ul>
+            <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+                <img src="image/haikei1.jpg" style="width: 100%;">
+            </div>
+            <li class='num0 img'>
+                 <a><img src='image/haikei1.jpg' alt='Pixabayさんからの借り物' title='ばーん' /> </a>
+            </li>
+            <li class='num1 img'>
+                 <a><img src='image/haikei2.jpg' alt='Pixabayさんからの借り物' title='びーん' /> </a>
+            </li>
+            <li class='num2 img'>
+                 <a><img src='image/haikei3.jpg' alt='Pixabayさんからの借り物' title='ぼーん' /> </a>
+            </li>
+
+        </ul>
+        <div class='cs_description'>
+            <label class='num0'>
+                <span class="cs_title"><span class="cs_wrapper">さんせっと</span></span>
+            </label>
+            <label class='num1'>
+                <span class="cs_title"><span class="cs_wrapper">いん</span></span>
+            </label>
+            <label class='num2'>
+                <span class="cs_title"><span class="cs_wrapper">らべる</span></span>
+            </label>
+        </div>
+      </div>
+    <!-- End cssSlider.com -->
+
+    <h1 class="top-wrapper">引っ掛かりましたね。</h1>
+    <h2 class="top-wrapper">ただのコピペですよ。</h2>
+
+  <br /><br />
+  <p class='text-1'>Resposive pure CSS <a href="http://cssslider.com">slider</a> with CSS3 animations, autoplay, kenburns, prev/next,<br /> bullets  with tooltips - no JavaScript! Vector icons only - no images. </p>
+  <a href="index.html" th:href="@{/}"><span class="btn message col">もどる</span></a>
+  </body>
+</html>

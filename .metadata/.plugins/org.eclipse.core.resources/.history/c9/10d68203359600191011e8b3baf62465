@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL文実行練習</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+  </head>
+  <body style="background-color:#eeeeee; margin: auto; text-align: center;">
+   <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://stat.ameba.jp/user_images/20120628/16/myumyupuri/d9/3a/g/t02030038_0203003812051530605.gif">
+        </div>
+        <span class="menu-icon fa fa-bars"></span>
+
+        <div class="header-right">
+          <a href="dummy.html" th:href="@{/dummy}">だみー</a>
+          <a href="search.html" th:href="@{/search}">けんさく</a>
+          <a href="dummy.html" th:href="@{/dummy}" class="dummy">hogefuga</a>
+        </div>
+        <div id="bgp" class="top-wrapper">
+      <div class="container">
+        <h1>HELLO EVERYONE.</h1>
+        <h1>WELCOME TO MY SITE.</h1>
+        <p>ここは練習用ホームページです。</p>
+        <p>想像以上に自分の学習能力が低くてショックを受けています。</p>
+        </div>
+        </div>
+      </div>
+    </header>
+
+
+
+	<form method="post" action="../java/SqlExec.java">
+    SQL文
+    <input type="text" >
+    <input type="submit"></form>
+  <br /><br />
+   <a href="index.html" th:href="@{/}"><span class="btn message col">もどる</span></a>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL文実行練習</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1 class="top-wrapper">引っ掛かりましたね。</h1>
+    <h2 class="heading">このページには何もありませんよ。</h2>
+    <a href="index.html" th:href="@{/index}"><span class="btn message col">もどる</span></a>
+  </body>
+</html>

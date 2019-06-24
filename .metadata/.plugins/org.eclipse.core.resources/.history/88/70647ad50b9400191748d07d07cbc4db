@@ -1,0 +1,23 @@
+package springbootsql
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ThymeleafController {
+
+	@RequestMapping("/index")
+	public String index() {
+		return "index";
+	}
+
+	@RequestMapping("/dummy")
+	public String about() {
+		return "dummy";
+	}
+
+	@RequestMapping("/search")
+	public String service() {
+		return "search";
+	}
+
+}
